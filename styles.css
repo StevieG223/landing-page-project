@@ -1,17 +1,41 @@
 body{
-
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    margin: 0;
 }
 
 .header{
-
-}
+    display: flex;
+    justify-content: space-around;
+    background-color: #7E1717;
+    margin: 0;
+    }
 
 .intro{
-
+    display: flex;
+    flex: auto;
+    background-color: #068DA9;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+    flex-wrap: wrap;
 }
 
 .cards{
-
+    display: flex;
+    flex: auto;
+    background-color: #ECF8F9;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+    flex-wrap: wrap;
 }
 
 .testimonial{
@@ -19,5 +43,89 @@ body{
 }
 
 .call-to-action{
-    
+
+}
+
+.footer{
+
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: #ECF8F9;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+a, p{
+    text-decoration: none;
+    color: #ECF8F9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+}
+
+.right-header{
+    display: flex;
+    padding: 8px;
+}
+
+.logo{
+    display: flex;
+    padding: 8px;
+    flex-shrink: 0;
+}
+
+li{
+    padding: 8px;
+}
+
+.food-image{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.intro-blurb{
+    width: 500px;
+    text-align: right;
+}
+
+.image{
+    width: 600px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.button{
+    background-color:  #ECF8F9;
+    border-radius:10px;
+    font-family: 'Roboto', sans-serif;
+    color: #068DA9;
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px; 
+    border: 0px;
+    will-change: opacity; 
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    margin-top: 16px;
+}
+
+.button:hover {
+    background-color: #068DA9;
+    color: #ECF8F9;
+    transition: 0.7s;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    flex:auto;
+    justify-content: center;
 }
