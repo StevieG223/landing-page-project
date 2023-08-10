@@ -223,3 +223,13 @@ h3{
 .sign-up-button i{
     color:#ECF8F9
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #7E1717;
+}
+
+.footer h3{
+    color: #ECF8F9;
+}
