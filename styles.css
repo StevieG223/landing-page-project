@@ -24,31 +24,6 @@ body{
     flex-wrap: wrap;
 }
 
-.cards{
-    display: flex;
-    flex: auto;
-    background-color: #ECF8F9;
-    flex-direction: row;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    padding: 60px;
-    flex-wrap: wrap;
-}
-
-.testimonial{
-
-}
-
-.call-to-action{
-
-}
-
-.footer{
-
-}
-
 h1{
     font-family: 'Roboto', sans-serif;
     color: #ECF8F9;
@@ -130,9 +105,10 @@ li{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;
-    padding: 40px;
+    gap: 25px;
+    padding: 120px 30px 100px 30px;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .card{
@@ -143,9 +119,9 @@ li{
     height: 75%;
     width: 15%;
     justify-content: flex-start;
-    gap: 16px;
+    gap: 24px;
     flex-shrink: 0;
-    min-width: 140px;
+    min-width: 175px;
 }
 
 .card h1,
@@ -162,7 +138,6 @@ i{
 i:hover {
     color: #7E1717;
     transition: 0.5s;
-    width: auto;
 }
 
 .testimonials{
@@ -184,7 +159,7 @@ i:hover {
     width: 75%;
 }
 
-.testimonials h3{
+h3{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 30px;
@@ -196,4 +171,54 @@ i:hover {
     height: 150px;
     width:auto;
     flex-shrink: 0;
+}
+
+.call-to-action{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF8F9;
+    flex: auto;
+}
+
+.sign-up-blurb{
+    background-color: #068DA9;
+    border-radius: 5%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: 0 0 auto;
+    gap: 40px;
+    padding: 60px;
+    margin: 60px;
+    flex-wrap: wrap;
+}
+
+.sign-up-blurb h3{
+    color: #ECF8F9;
+}
+
+.sign-up-blurb-text{
+    display: flex;
+    flex-direction: column;
+    flex:auto;
+    min-width: 150px;
+    width: 600px;
+    height: 300px; 
+}
+
+.sign-up-button{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300 px;
+    height: auto;
+}
+
+.sign-up-button i{
+    color:#ECF8F9
 }
