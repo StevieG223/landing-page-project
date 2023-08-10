@@ -145,7 +145,7 @@ li{
     justify-content: flex-start;
     gap: 16px;
     flex-shrink: 0;
-    min-width: 150px;
+    min-width: 140px;
 }
 
 .card h1,
@@ -162,5 +162,38 @@ i{
 i:hover {
     color: #7E1717;
     transition: 0.5s;
-    width: auto; 
+    width: auto;
+}
+
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E55807;
+    padding: 40px;
+}
+
+.testimonials h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    color: #7E1717;
+}
+
+.testimonal-text-div{
+    width: 75%;
+}
+
+.testimonials h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #7E1717;
+}
+
+.profile-img{
+    border-radius: 100%;
+    height: 150px;
+    width:auto;
+    flex-shrink: 0;
 }
